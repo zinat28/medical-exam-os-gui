@@ -1,0 +1,9 @@
+========= APPLICANT REGISTRATION RECORD SLIP =========
+Roll Number     : M-505874
+Full Name       : z
+Date of Birth   : 1998-10-23
+SSC Board / GPA : Rajshahi / 4.0
+HSC Board / GPA : Barishal / 4.0
+Payment Status  : PAID (Fee $15.00)
+Documents       : Identity, SSC & HSC transcripts VERIFIED
+========================================================

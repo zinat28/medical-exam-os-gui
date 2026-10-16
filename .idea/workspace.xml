@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee45215c-e82c-40f9-8ff2-282b42ecb39a" name="Changes" comment="Jubayer Dashboard Connecter to Logout">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medical_entrance_exam.sqbpro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamAdministrator_ApproveApplicantRegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamAdministrator_AssignExamCentersController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamAdministrator_CreateExamScheduleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamAdministrator_GenerateAdmitCardsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamAdministrator_GenerateFinalReportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamAdministrator_ManageApplicantRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamAdministrator_PublishExamNoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamAdministrator_PublishExamResultsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamCenterCoordinator_AssignExamRoomsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamCenterCoordinator_DownloadCenterDocumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamCenterCoordinator_GetCenterCapacityStatusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamCenterCoordinator_GetCenterDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamCenterCoordinator_ManageSeatAllocationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamCenterCoordinator_ReportAbsentCandidatesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamCenterCoordinator_SubmitExamSessionReportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/ExamCenterCoordinator_VerifyVenueAttendanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/Controller/JakiaJumanaDashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/AbsentReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/AdmitCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/CapacityStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/CenterDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/ExamCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/ExamNotice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/ExamResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/ExamRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/ExamSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/ExamSessionReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/FinalReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/SeatAllocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/SystemReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/NonUser/VenueAttendance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/User/ExamAdministrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/User/ExamCenterCoordinator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/User/SystemUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/FinanceOfficer_AdjustScholarshipController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/FinanceOfficer_DailyReconciliationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/FinanceOfficer_DisburseShareController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/FinanceOfficer_FinancialAuditController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/FinanceOfficer_ProcessRefundController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/FinanceOfficer_ResolveDisputeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/FinanceOfficer_RevenueReportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/FinanceOfficer_VerifyPaymentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/Invigilator_ApproveLateEntryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/Invigilator_CollectAnswerSheetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/Invigilator_DistributeQuestionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/Invigilator_HallClosingReportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/Invigilator_IssueExtraSheetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/Invigilator_ReVerifyCandidateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/Invigilator_ReportIncidentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/Invigilator_VerifyAttendanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Controller/JubayerAhmedMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/AnswerSheet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/AttendanceRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/BundleManifest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/Candidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/DailyReconciliation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/ExamHall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/FinancialAuditReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/FinancialReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/HallReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/IncidentReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/InstituteDisbursement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/PaymentDispute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/PaymentTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/QuestionBooklet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/ReconciliationSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/RefundRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/RevenueReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/NonUser/ScholarshipRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/User/FinanceOfficer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/User/Invigilator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/User/SystemUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/LoginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/controller/AddCandidateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/controller/ApproveCandidatesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/controller/CandidateDashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/controller/DirectorDashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/controller/EditCandidateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/controller/MedicalOfficerDashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/controller/ReportDashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/controller/VerifyDocumentsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/dao/CandidateDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/dao/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/database/CandidateDAOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/database/DatabaseConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/database/DatabaseConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/database/DatabaseInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/database/DatabaseInitializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/database/UserTableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/model/Candidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/tanvir/user7user8/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/ApplicantFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/ApplicantFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/ApplicationSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/ApplicationSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/DocumentUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/DocumentUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/ExamCenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/ExamCenterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamAdministrator_ApproveApplicantRegistration.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamAdministrator_AssignExamCenters.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamAdministrator_CreateExamSchedule.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamAdministrator_GenerateAdmitCards.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamAdministrator_GenerateFinalReport.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamAdministrator_ManageApplicantRecord.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamAdministrator_PublishExamNotice.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamAdministrator_PublishExamResults.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamCenterCoordinator_AssignExamRooms.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamCenterCoordinator_DownloadCenterDocument.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamCenterCoordinator_GetCenterCapacityStatus.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamCenterCoordinator_GetCenterDetails.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamCenterCoordinator_ManageSeatAllocation.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamCenterCoordinator_ReportAbsentCandidates.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamCenterCoordinator_SubmitExamSessionReport.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/ExamCenterCoordinator_VerifyVenueAttendance.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/JakiaJumanaDashboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/FinanceOfficer_AdjustScholarship.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/FinanceOfficer_DailyReconciliation.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/FinanceOfficer_DisburseShare.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/FinanceOfficer_FinancialAudit.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/FinanceOfficer_ProcessRefund.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/FinanceOfficer_ResolveDispute.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/FinanceOfficer_RevenueReport.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/FinanceOfficer_VerifyPayment.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Invigilator_ApproveLateEntry.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Invigilator_CollectAnswerSheet.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Invigilator_DistributeQuestion.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Invigilator_HallClosingReport.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Invigilator_IssueExtraSheet.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Invigilator_ReVerifyCandidate.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Invigilator_ReportIncident.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/Invigilator_VerifyAttendance.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/JubayerAhmedMenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/tanvir/add_candidate.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/tanvir/approve_candidates.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/tanvir/candidate_dashboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/tanvir/director_dashboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/tanvir/edit_candidate.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/tanvir/medical_officer_dashboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/tanvir/report_dashboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/tanvir/verify_documents.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/DocumentsUpload.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/DocumentsUpload.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/ExamCenter.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/ExamCenter.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zinat28&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zinat28/Medical_Entrance_Exam.git&quot;,
+    &quot;accountId&quot;: &quot;1ecab5b3-11d6-43a9-9d44-046a467134b8&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/summer/section1/group4/medical_entrance_exam/zinat/QuestionModerator/QuestionModeratorController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="temurin-21" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3FtFnmlFm1r9BFLe9ZVRO6drjLW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.com.summer.section1.group4.medical_entrance_exam.zinat in Medical_Entrance_Exam.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.com.summer.section1.group4.medical_entrance_exam.zinat.Applicant in Medical_Entrance_Exam.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Run GUI.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/_Medical_Entrance_Group_Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\IntellijIDEA\_Medical_Entrance_Group_Project\src\main\resources\com\summer\section1\group4\medical_entrance_exam\zinat\QuestionModerator" />
+      <recent name="I:\IntellijIDEA\_Medical_Entrance_Group_Project\src\main\resources\com\summer\section1\group4\medical_entrance_exam\zinat" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\IntellijIDEA\_Medical_Entrance_Group_Project\src\main\resources\com\summer\section1\group4\medical_entrance_exam\" />
+      <recent name="I:\IntellijIDEA\_Medical_Entrance_Group_Project\src\main\resources\com\summer\section1\group4\medical_entrance_exam\zinat" />
+      <recent name="I:\IntellijIDEA\_Medical_Entrance_Group_Project\src\main\resources\com\summer\section1\group4\medical_entrance_exam\zinat\Applicant" />
+      <recent name="I:\IntellijIDEA\_Medical_Entrance_Group_Project\src\main\java\com\summer\section1\group4\medical_entrance_exam\zinat" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.summer.section1.group4.medical_entrance_exam.zinat" />
+      <recent name="com.summer.section1.group4.medical_entrance_exam" />
+      <recent name="com.summer.section1.group4.medical_entrance_exam.zinat.Applicant" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.summer.section1.group4.medical_entrance_exam.zinat.QuestionModerator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Run GUI">
+    <configuration name="com.summer.section1.group4.medical_entrance_exam.zinat in Medical_Entrance_Exam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medical_Entrance_Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.summer.section1.group4.medical_entrance_exam.zinat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.summer.section1.group4.medical_entrance_exam.zinat" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.summer.section1.group4.medical_entrance_exam.zinat.Applicant in Medical_Entrance_Exam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medical_Entrance_Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.summer.section1.group4.medical_entrance_exam.zinat.Applicant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.summer.section1.group4.medical_entrance_exam.zinat.Applicant" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run GUI" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map>
+                <entry key="EXAM_HOST" value="127.0.0.1" />
+              </map>
+            </option>
+            <option name="jreName" value="temurin-21" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:run" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.com.summer.section1.group4.medical_entrance_exam.zinat.Applicant in Medical_Entrance_Exam" />
+      <item itemvalue="JUnit.com.summer.section1.group4.medical_entrance_exam.zinat in Medical_Entrance_Exam" />
+      <item itemvalue="Maven.Run GUI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.summer.section1.group4.medical_entrance_exam.zinat.Applicant in Medical_Entrance_Exam" />
+        <item itemvalue="JUnit.com.summer.section1.group4.medical_entrance_exam.zinat in Medical_Entrance_Exam" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee45215c-e82c-40f9-8ff2-282b42ecb39a" name="Changes" comment="" />
+      <created>1782886627555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782886627555</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Login page created by Zinat">
+      <option name="closed" value="true" />
+      <created>1783231604460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783231604460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="SceneSwitching to Applicant">
+      <option name="closed" value="true" />
+      <created>1783253871724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783253871724</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SceneSwitching to MainMMenu,&#10;But Failed to switch ApplicantForm.fxml">
+      <option name="closed" value="true" />
+      <created>1783617421887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783617421887</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SceneSwitching to MainMMenu,ApplicantForm.fxml succesfully and the alignment of ApplicantForm.fxml is perfects">
+      <option name="closed" value="true" />
+      <created>1784104490531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784104490531</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DocumentUpload FXML and Necessary Controllers">
+      <option name="closed" value="true" />
+      <created>1784124099905</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784124099909</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Admit Card, Payment, Exam Center Allocation-- FXML done">
+      <option name="closed" value="true" />
+      <created>1784143804873</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784143804873</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Admit Card, Allocated College, ChoiceLocking, Result FXM and necessary Connection">
+      <option name="closed" value="true" />
+      <created>1784149273483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784149273483</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Question Moderator is set up, and Applicant works moved to another directory">
+      <option name="closed" value="true" />
+      <created>1784280942157</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1784280942157</updated>
+    </task>
+    <task id="LOCAL-00009" summary="All the FXML, Controller connection, done,">
+      <option name="closed" value="true" />
+      <created>1784308401174</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1784308401174</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ApplicantFormController, DocumentUploadController, PaymentController successfully done">
+      <option name="closed" value="true" />
+      <created>1784732385771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732385771</updated>
+    </task>
+    <task id="LOCAL-00011" summary="AdmitCardDownloadController, AllocatedCollegeController, ChoiceLockingController, ExamCenterController, Result are successfully done">
+      <option name="closed" value="true" />
+      <created>1784732892986</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732892986</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Question Moderator works are done">
+      <option name="closed" value="true" />
+      <created>1784833645971</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1784833645971</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tanvir works added for login portal">
+      <option name="closed" value="true" />
+      <created>1786106212596</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1786106212596</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Reham Files has been deleted">
+      <option name="closed" value="true" />
+      <created>1786107986526</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1786107986526</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Reham Packeged Name changed">
+      <option name="closed" value="true" />
+      <created>1786206770460</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1786206770460</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Jakia scene switching is connected">
+      <option name="closed" value="true" />
+      <created>1786260102173</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1786260102173</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Jubayer Dashboard Connecter to Logout">
+      <option name="closed" value="true" />
+      <created>1786271895775</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1786271895775</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login page created by Zinat" />
+    <MESSAGE value="SceneSwitching to Applicant" />
+    <MESSAGE value="SceneSwitching to MainMMenu,&#10;But Failed to switch ApplicantForm.fxml" />
+    <MESSAGE value="SceneSwitching to MainMMenu,ApplicantForm.fxml succesfully and the alignment of ApplicantForm.fxml is perfects" />
+    <MESSAGE value="DocumentUpload FXML and Necessary Controllers" />
+    <MESSAGE value="Admit Card, Payment, Exam Center Allocation-- FXML done" />
+    <MESSAGE value="Admit Card, Allocated College, ChoiceLocking, Result FXM and necessary Connection" />
+    <MESSAGE value="Question Moderator is set up, and Applicant works moved to another directory" />
+    <MESSAGE value="All the FXML, Controller connection, done," />
+    <MESSAGE value="ApplicantFormController, DocumentUploadController, PaymentController successfully done" />
+    <MESSAGE value="AdmitCardDownloadController, AllocatedCollegeController, ChoiceLockingController, ExamCenterController, Result are successfully done" />
+    <MESSAGE value="Question Moderator works are done" />
+    <MESSAGE value="Tanvir works added for login portal" />
+    <MESSAGE value="Reham Files has been deleted" />
+    <MESSAGE value="Reham Packeged Name changed" />
+    <MESSAGE value="Jakia scene switching is connected" />
+    <MESSAGE value="Jubayer Dashboard Connecter to Logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jubayer Dashboard Connecter to Logout" />
+  </component>
+</project>

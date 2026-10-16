@@ -152,6 +152,29 @@ public class ApplicationSession {
     }
 
     // ---------------------------------------------------------------
+    // GOAL 5: Exam Center seat (booked on the exam SERVER, see ServerClient)
+    // ---------------------------------------------------------------
+    private String bookedCenter;
+    private String bookingRef;
+
+    public boolean isSeatBooked() {
+        return bookedCenter != null;
+    }
+
+    public String getBookedCenter() {
+        return bookedCenter;
+    }
+
+    public String getBookingRef() {
+        return bookingRef;
+    }
+
+    public void setSeatBooking(String center, String ref) {
+        this.bookedCenter = center;
+        this.bookingRef = ref;
+    }
+
+    // ---------------------------------------------------------------
     // GOAL 6: Result
     // ---------------------------------------------------------------
     private boolean resultDeclared = false;

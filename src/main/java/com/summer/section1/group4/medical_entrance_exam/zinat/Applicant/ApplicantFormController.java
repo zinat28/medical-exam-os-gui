@@ -54,6 +54,12 @@ public class ApplicantFormController {
             FormStatusLabel.setText("VALIDATION ERROR: Missing date selection or board parameters!");
             return;
         }
+        if (DobTF.getValue().plusYears(18).isAfter(java.time.LocalDate.now())) {
+            FormStatusLabel.setText("VALIDATION ERROR: Applicant must be at least 18 years old.");
+            return;
+        }
+
+
 
         double sscGpa, hscGpa;
         try {

@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
@@ -24,13 +25,21 @@ public class DocumentUploadController {
     private String identityFileName;
     private String sscFileName;
     private String hscFileName;
+    @FXML
+    private TextField applicantNameTF;
 
     @FXML
     public void initialize() {
         VerificationDocumentComB.getItems().addAll("NID", "BirthCertificate", "Passport");
         SscDocumentComB.getItems().addAll("Transcript", "Certificate");
         HscDocumentComB.getItems().addAll("Transcript", "Certificate");
+
+        Applicant applicant = ApplicationSession.getInstance().getApplicant();
+        if (applicant != null) {
+            applicantNameTF.setText(applicant.getApplicantName());
+        }
     }
+
 
     @FXML
     public void VerificationDocumentOA(ActionEvent actionEvent) {

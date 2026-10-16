@@ -1,0 +1,9 @@
+========= APPLICANT REGISTRATION RECORD SLIP =========
+Roll Number     : M-936114
+Full Name       : zinat
+Date of Birth   : 2000-10-26
+SSC Board / GPA : Rajshahi / 5.0
+HSC Board / GPA : Sylhet / 5.0
+Payment Status  : PAID (Fee $15.00)
+Documents       : Identity, SSC & HSC transcripts VERIFIED
+========================================================

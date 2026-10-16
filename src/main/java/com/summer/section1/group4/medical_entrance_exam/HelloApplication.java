@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         SceneSwitcher.setStage(stage);  // <-- add this
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/summer/section1/group4/medical_entrance_exam/login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/summer/section1/group4/medical_entrance_exam/Login.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Combined Medical Entrance Exam Portal");
         stage.setScene(scene);

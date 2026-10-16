@@ -20,54 +20,31 @@ public class LoginController {
     private Label messegeLabel;
 
     public void initialize(){
-        userTypeComboBox.getItems().addAll("Administrator", "Center Coordinator", "Applicant", "Question Moderator", "Invigilator", "Finance Officer", "Medical Officer", "Director" );
+        userTypeComboBox.getItems().addAll( "Applicant", "Question Moderator" );
 
     }
 
     @javafx.fxml.FXML
     public void loginButtonOnAction(ActionEvent actionEvent) throws IOException {
-        for(Login x: LoginManager.getLoginArrayList()) {
-            if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Applicant")) {
+        String type = userTypeComboBox.getValue();
+        if (type == null) {
+            messegeLabel.setText("Please select a user type");
+            return;
+        }
+
+        for (Login x : LoginManager.getLoginArrayList()) {
+            if (usernameTextField.getText().equals(x.getUsername())
+                    && passwordTextField.getText().equals(x.getPassword())
+                    && type.equals(x.getUserType())) {
                 messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/zinat/Applicant/Applicant.fxml");
-            }
-            else if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Question Moderator")) {
-                messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/zinat/QuestionModerator/QuestionModerator.fxml");
-            }
-            else if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Medical Officer")) {
-                messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/tanvir/medical_officer_dashboard.fxml");
-            }
-            else if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Director")) {
-                messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/tanvir/director_dashboard.fxml");
-            }
-            else if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Financial Officer")) {
-                messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/reham/JubayerAhmed_2330814/JubayerAhmedMenu.fxml");
-            }
-            else if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Invigilator")) {
-                messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/JubayerAhmedMenu.fxml");
-            }
-            else if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Finance Officer")) {
-                messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/JubayerAhmed_2330814/JubayerAhmedMenu.fxml");
-            }
-            else if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Center Coordinator")) {
-                messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/JakiaJumanaDashboard.fxml");
-            }
-            else if ((usernameTextField.getText().equals(x.getUsername())) && passwordTextField.getText().equals(x.getPassword()) && userTypeComboBox.getValue().equals("Administrator")) {
-                messegeLabel.setText("Login Successful");
-                SceneSwitcher.switchTo("/com/summer/section1/group4/medical_entrance_exam/JakiaJumana_1920223/JakiaJumanaDashboard.fxml");
+                String base = "/com/summer/section1/group4/medical_entrance_exam/zinat/";
+                SceneSwitcher.switchTo(type.equals("Applicant")
+                        ? base + "Applicant/Applicant.fxml"
+                        : base + "QuestionModerator/QuestionModerator.fxml");
+                return;                      // stop here: do not fall through to "Login Failed"
             }
         }
 
         messegeLabel.setText("Login Failed");
-
-
-
     }
 }
